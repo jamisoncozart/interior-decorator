@@ -31,10 +31,6 @@ body {
   height: 750px;
 }
 
-.column:first-of-type {
-  
-}
-
 .column p {
   text-align: center;
 }
