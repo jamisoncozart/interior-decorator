@@ -1,6 +1,5 @@
 body {
   background-color: #fff9ed;
-  color: ;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 10px;
 }
@@ -14,7 +13,7 @@ body {
 }
 
 .column p {
-  text-align: 
+  text-align: center;
 }
 
 img {
