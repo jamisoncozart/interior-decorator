@@ -10,7 +10,7 @@ body {
   padding: 20px;
   margin: 10px;
   background-color: #ffdf60;
-  height: 750px;
+  height: 550px;
 }
 
 .column2 {
@@ -19,7 +19,7 @@ body {
   padding: 20px;
   margin: 10px;
   background-color: #fff9ed;
-  height: 750px;
+  height: 550px;
 }
 
 .column3 {
@@ -28,7 +28,7 @@ body {
   padding: 20px;
   margin: 10px;
   background-color: #ffce99; 
-  height: 750px;
+  height: 550px;
 }
 
 .column p {
@@ -36,7 +36,7 @@ body {
 }
 
 img {
-  width: 300px;
+  width: 80%;
   height: auto;
 }
 
@@ -45,4 +45,21 @@ img {
   margin: 10px;
   text-align: center;
   padding: 5px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .column1, .column2 {
+    width: 50%;
+    height: auto;
+  }
+  .column3 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+  .column1, .column2, .column3 {
+    width: 100%;
+    height: auto;
+  }
 }
