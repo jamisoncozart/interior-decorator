@@ -4,12 +4,35 @@ body {
   margin: 10px;
 }
 
-.column {
+.column1 {
   float: left;
   width: 28%;
   padding: 20px;
   margin: 10px;
   background-color: #ffdf60;
+  height: 750px;
+}
+
+.column2 {
+  float: left;
+  width: 28%;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff9ed;
+  height: 750px;
+}
+
+.column3 {
+  float: left;
+  width: 28%;
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffce99; 
+  height: 750px;
+}
+
+.column:first-of-type {
+  
 }
 
 .column p {
